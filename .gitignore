@@ -1,0 +1,5 @@
+data/
+.vscode
+Pipfile
+Pipfile.lock
+requirements.txt
