@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM tiangolo/uwsgi-nginx:python3.6
 
 RUN apt update
 RUN apt install -y python3-dev gcc
