@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify, render_template
 import os
-from fastai.vision import *
+from fastai.vision import (
+    load_learner,
+    open_image,
+)
 from io import BytesIO
 import sys
 from waitress import serve
